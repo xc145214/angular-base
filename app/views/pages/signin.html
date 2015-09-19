@@ -1,0 +1,26 @@
+<div class="container ">
+    <div class="center-block w-xl w-auto-xs m-b-lg">
+        <div class="text-2x m-v-lg text-primary ng-binding"><i class="glyphicon glyphicon-th-large text-xl"></i> HeyMetro</div>
+        <div class="m-b text-sm ng-binding">
+            Sign in with your HeyMetro Account
+        </div>
+        <form name="form" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required">
+            <div class="form-group m-b-xs">
+                <label class="hide">Email</label>
+                <input type="email" placeholder="Someone@example.com" class="form-control ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required" ng-model="user.email" required="">
+            </div>
+            <div class="form-group m-b-xs">
+                <label class="hide">Password</label>
+                <input type="password" placeholder="Password" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" ng-model="user.password" required="">
+            </div>
+            <div class="checkbox no-margin">
+                <label class="ui-checks">
+                    <input type="checkbox"><i></i> Keep me signed in
+                </label>
+            </div>
+            <button type="submit" class="btn btn-info p-h-md m-v-lg">Sign in</button>
+            <p class="text-xs"><a ui-sref="forgot-password" href="#/forgot-password">Forgot password?</a></p>
+            <p class="m-v-lg text-sm">Do not have an account? <a ui-sref="signup" href="#/signup">Create an account</a></p>
+        </form>
+    </div>
+</div>

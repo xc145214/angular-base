@@ -1,0 +1,211 @@
+<div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+
+        <ul class="nav in" id="side-menu">
+            <li ui-sref-active="active">
+                <h1 class="m-l">UI Kits</h1>
+            </li>
+            <!--<sidebar-search></sidebar-search>-->
+
+            <li ng-class="{active: collapseVar==1}">{{dropDown}}
+                <a href="" ng-click="check(1)"><i class="icon ui-icon text-xxs  glyphicon glyphicon-briefcase"></i> Components<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=1">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Arrow</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Badge & Label</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Button</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Color</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.buttons">Grid</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.icons"> Icon</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">List Group</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Nav</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Panel</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Well</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.notifications">ProgressBar</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography">StreamLine</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography">TimeLine</a>
+                    </li>
+
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+            <li ng-class="{active: collapseVar==2}">{{dropDown}}
+                <a href="" ng-click="check(2)"><i class="icon ui-icon text-xxs b-2x glyphicon glyphicon-font"></i> Angular Strap<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=2">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Affix</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Alert</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Aside</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Collapse</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.buttons">Dropdown</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.icons"> Datepicker</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Timepicker</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Modal</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Select</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Tab</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.notifications">Tooltip</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography">Popover</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography">Typeahead</a>
+                    </li>
+
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+
+            <li ng-class="{active: collapseVar==3}">{{dropDown}}
+                <a href="" ng-click="check(3)"><i class="icon ui-icon text-xxs b-2x glyphicon glyphicon-edit"></i> Form<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=3">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Form Layout</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Form Element</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Form Validation</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Select</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Eidtor</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Slider</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.buttons">Tree</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.notifications">File Upload</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.typography">Image Crop</a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+            <li ng-class="{active: collapseVar==4}">{{dropDown}}
+                <a href="" ng-click="check(4)"><i class="icon ui-icon text-xxs b-2x glyphicon glyphicon-list"></i> Table<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=4">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Static table</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Smart table</a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+
+
+            <li ng-class="{active: collapseVar==5}">{{dropDown}}
+                <a href="" ng-click="check(5)"><i class="fa  fa-fw fa-map-marker"></i> Maps<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=5">
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Baidu Map</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="dashboard.panels-wells">Vector Map</a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+
+
+            <li ng-class="{active: collapseVar==6}">
+                <a href="" ng-click="check(6)"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" collapse="collapseVar!=6">
+                    <li>
+                        <a href="">Second Level Item</a>
+                    </li>
+                    <li>
+                        <a href="">Second Level Item</a>
+                    </li>
+                    <li ng-init="third=!third" ng-class="{active: multiCollapseVar==3}">
+                        <a href="" ng-click="multiCheck(3)">Third Level <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level" collapse="multiCollapseVar!=3">
+                            <li>
+                                <a href="">Third Level Item</a>
+                            </li>
+                            <li>
+                                <a href="">Third Level Item</a>
+                            </li>
+                            <li>
+                                <a href="">Third Level Item</a>
+                            </li>
+                            <li>
+                                <a href="">Third Level Item</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.nav-third-level -->
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="dashboard.chart"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span></span></a>
+            </li>
+
+        </ul>
+    </div>
+    <!-- /.sidebar-collapse -->
+</div>
+
+
+

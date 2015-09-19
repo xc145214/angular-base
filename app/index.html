@@ -16,32 +16,40 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
-    <link rel="stylesheet" href="app.css">
-
+    <link rel="stylesheet" href="styles/sb-admin-2.css">
+    <!--<link rel="stylesheet" href="styles/app.min.css">-->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/timeline.css">
+    <!--<link rel="stylesheet" href="bower_components/metisMenu/dist/metisMenu.min.css">-->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
+<!--[if lt IE 10]>
+<p class="page-header">为了获取更好的用户体验. 请 <a href="">使用chrome 或者IE 10+ 浏览器
+</a></p>
+<![endif]-->
 
 <div ui-view></div>
 
 
-<!--[if lt IE 10]>
-<p class="page-header">为了获取更好的用户体验. 请 <a href="http://browsehappy.com/">使用chrome 或者IE 10+ 浏览器
-</a></p>
-<![endif]-->
 
 
 <!--bower start-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-<script src="bower_components/angular-bootstrap/ui-bootstrap-tpl.js"></script>
-<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
 <script src="bower_components/oclazyload/dist/ocLazyLoad.js"></script>
+<!--<script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>-->
 <!--bower end-->
 
 <!--build start-->
 <script src="scripts/app.js"></script>
+<script src="scripts/lazyLoad.config.js"></script>
 <script src="scripts/app.router.js"></script>
+<!--<script src="js/sb-admin-2.js"></script>-->
 <!--build end-->
 </body>
 </html>
